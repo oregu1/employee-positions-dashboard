@@ -10,7 +10,7 @@ const addedPositionsTemplate = document.querySelector("[data-added-position-card
 const searchInput = document.getElementById("search-input");
 
 //ARRAYS
-const positions = [];//сюда добавляются все должностя при обработке fetch запроса
+const positions = [];//сюда добавляются все должности при обработке fetch запроса
 const addedPositionsArr = [];
 
 //SPAN справа на начальном экране
