@@ -11,7 +11,7 @@ const searchInput = document.getElementById("search-input");
 
 //ARRAYS
 const positions = [];//сюда добавляются все должности при обработке fetch запроса
-const addedPositionsArr = [];
+const addedPositionsArr = [];//список добавленных должностей с базовой зарплатой
 
 window.addEventListener("DOMContentLoaded", async ()=> {
     await fetch('../json_file.json')
@@ -29,8 +29,6 @@ window.addEventListener("DOMContentLoaded", async ()=> {
 //SPAN справа на начальном экране
 collapseSpan.addEventListener('click', () => {
     employeePositions.classList.toggle("hidden")
-    // let ULElem = document.querySelector(".employee-positions");
-    // ULElem.classList.remove("hidden")
     searchInput.value = "";
 })
 
