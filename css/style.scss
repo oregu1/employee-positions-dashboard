@@ -54,16 +54,20 @@ body {
             width: 100%;
             background-color: bisque;
             margin-bottom: 20px;
-
-            .hidden {
+            list-style: none;
+            
+            &.hidden {
                 display: none;
             }
+            
             
             .employee-position-card {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 padding: 10px 15px;
+
+                
             }
         }
 

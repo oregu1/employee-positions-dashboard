@@ -46,8 +46,9 @@ body .wrapper .employee-positions {
   width: 100%;
   background-color: bisque;
   margin-bottom: 20px;
+  list-style: none;
 }
-body .wrapper .employee-positions .hidden {
+body .wrapper .employee-positions.hidden {
   display: none;
 }
 body .wrapper .employee-positions .employee-position-card {
